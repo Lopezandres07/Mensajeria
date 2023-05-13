@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+* {
+    font-family:"Roboto", sans-serif;
+    margin: 0;
+}
+
+.caja {
+    display: flex;
+}
+
+aside {
+    width: 20%;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.datos-perfil {
+    display: flex;
+    align-items: center;
+}
+
+.perfil img {
+    width: 3rem;
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
+
+.chat img {
+    width: 3rem;
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
+
+.iconos {
+    padding-right: 0.5rem;
+}
+
+button {
+    border-radius: 5rem;
+    background-color: #4f008c;
+    color: #ffffff;
+    padding: 0.5rem 2rem;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    border-color: #505050;
+}
+
+.chat {
+    border-top: solid 0.01rem;
+}
+
+.icon-chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 0.5rem;
+}
+
+.logo {
+    width: 10rem ;
+    border-radius: 10rem;
+}
+
+.contenido {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #e0e0e0;
+}
